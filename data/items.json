@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Mystic Reverb",
+    "category": "Magic",
+    "tier": 2,
+    "souls": 1200,
+    "activation": "Passive",
+    "stats": "Magic power increased by twelve percent"
+  },
+  {
+    "name": "Enduring Speed",
+    "category": "Firearm",
+    "tier": 1,
+    "souls": 400,
+    "activation": "Passive",
+    "stats": "Rifle handling improved"
+  },
+  {
+    "name": "Return Fire",
+    "category": "Defense",
+    "tier": 2,
+    "souls": 900,
+    "activation": "On Hit",
+    "stats": "Counterattack damage reduced"
+  },
+  {
+    "name": "Spirit Shielding",
+    "category": "Magic",
+    "tier": 3,
+    "souls": 2500,
+    "activation": "Passive",
+    "stats": "Spirit regeneration increased"
+  },
+  {
+    "name": "Trophy Collector",
+    "category": "Utility",
+    "tier": 1,
+    "souls": 250,
+    "activation": "Passive",
+    "stats": "Kill reward chance increased"
+  },
+  {
+    "name": "Counterspell",
+    "category": "Magic",
+    "tier": 3,
+    "souls": 3000,
+    "activation": "On Cast",
+    "stats": "Negative effect duration reduced"
+  },
+  {
+    "name": "Dispel Magic",
+    "category": "Magic",
+    "tier": 2,
+    "souls": 1500,
+    "activation": "Active",
+    "stats": "Removes hostile magic effects"
+  },
+  {
+    "name": "Fortitude",
+    "category": "Defense",
+    "tier": 2,
+    "souls": 1100,
+    "activation": "Passive",
+    "stats": "Health granted after taking damage"
+  },
+  {
+    "name": "Healing Nova",
+    "category": "Magic",
+    "tier": 1,
+    "souls": 600,
+    "activation": "Active",
+    "stats": "Area heal on activation"
+  },
+  {
+    "name": "Majestic Leap",
+    "category": "Mobility",
+    "tier": 2,
+    "souls": 1300,
+    "activation": "Passive",
+    "stats": "Jump height increased"
+  }
+]

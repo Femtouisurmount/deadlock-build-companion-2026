@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Warden",
+    "health": 1150,
+    "weapon_dps": 78,
+    "range": 22,
+    "ammo": 12,
+    "reload": 2.1,
+    "difficulty": 1,
+    "role": "Support"
+  },
+  {
+    "name": "McGinnis",
+    "health": 900,
+    "weapon_dps": 140,
+    "range": 8,
+    "ammo": 6,
+    "reload": 1.4,
+    "difficulty": 2,
+    "role": "Turret"
+  },
+  {
+    "name": "Haze",
+    "health": 800,
+    "weapon_dps": 165,
+    "range": 30,
+    "ammo": 10,
+    "reload": 1.9,
+    "difficulty": 3,
+    "role": "Carry"
+  },
+  {
+    "name": "Seven",
+    "health": 1000,
+    "weapon_dps": 120,
+    "range": 18,
+    "ammo": 8,
+    "reload": 2.4,
+    "difficulty": 2,
+    "role": "Controller"
+  },
+  {
+    "name": "Dynamo",
+    "health": 1050,
+    "weapon_dps": 95,
+    "range": 25,
+    "ammo": 11,
+    "reload": 2.0,
+    "difficulty": 2,
+    "role": "Tank"
+  }
+]

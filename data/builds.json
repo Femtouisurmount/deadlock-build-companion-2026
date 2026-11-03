@@ -1,0 +1,31 @@
+[
+  {
+    "hero_name": "Warden",
+    "name": "Warden Support",
+    "build_id": "build-warden-support",
+    "items": [
+      "Mystic Reverb",
+      "Fortitude",
+      "Healing Nova"
+    ]
+  },
+  {
+    "hero_name": "McGinnis",
+    "name": "McGinnis Turret",
+    "build_id": "build-mcginnis-turret",
+    "items": [
+      "Enduring Speed",
+      "Trophy Collector"
+    ]
+  },
+  {
+    "hero_name": "Haze",
+    "name": "Haze Carry",
+    "build_id": "build-haze-carry",
+    "items": [
+      "Return Fire",
+      "Spirit Shielding",
+      "Counterspell"
+    ]
+  }
+]

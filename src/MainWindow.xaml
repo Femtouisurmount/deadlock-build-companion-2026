@@ -1,0 +1,66 @@
+<Window x:Class="DeadlockCompanion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/microsoft.com/winfx/2006/xaml"
+        mc:Ignorable="d"
+        Title="Deadlock Build Companion"
+        Height="620"
+        Width="900"
+        WindowStartupLocation="CenterScreen"
+        Background="#1e1e1e"
+        Foreground="#cccccc">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Text="Deadlock Build Companion"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="#007acc"
+                   Margin="0,0,0,20"/>
+
+        <TabControl Grid.Row="1" Margin="0,0,0,16">
+            <TabItem Header="Heroes">
+                <StackPanel>
+                    <TextBlock Text="Hero Statistics" FontWeight="Bold" Foreground="#007acc" Margin="0,0,0,8"/>
+                    <ListBox x:Name="lstHeroes" Height="300" Foreground="#cccccc"/>
+                    <Button x:Name="btnRefreshHeroes" Content="Refresh Heroes" Width="140" Height="32"
+                            Background="#007acc" Foreground="White" BorderThickness="0" Click="BtnRefreshHeroes_Click"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Items">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+                        <TextBlock Text="Filter:" Width="50" Foreground="#cccccc"/>
+                        <TextBox x:Name="txtItemFilter" Width="260" Margin="0,0,8,0" TextChanged="TxtItemFilter_TextChanged"/>
+                    </StackPanel>
+                    <TextBlock Text="Item Database" FontWeight="Bold" Foreground="#007acc" Margin="0,0,0,8"/>
+                    <ListBox x:Name="lstItems" Height="280" Foreground="#cccccc"/>
+                    <Button x:Name="btnRefreshItems" Content="Refresh Items" Width="140" Height="32"
+                            Background="#007acc" Foreground="White" BorderThickness="0" Click="BtnRefreshItems_Click"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Builds">
+                <StackPanel>
+                    <TextBlock Text="Build Presets" FontWeight="Bold" Foreground="#007acc" Margin="0,0,0,8"/>
+                    <ListBox x:Name="lstBuilds" Height="300" Foreground="#cccccc"/>
+                    <Button x:Name="btnRefreshBuilds" Content="Refresh Builds" Width="140" Height="32"
+                            Background="#007acc" Foreground="White" BorderThickness="0" Click="BtnRefreshBuilds_Click"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+        <StatusBar Grid.Row="2" Margin="0,20,0,0" Background="#2d2d2d" BorderThickness="0,1,0,0">
+            <StatusBarItem>
+                <TextBlock x:Name="txtStatus" Foreground="#888888" Text="Ready"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
